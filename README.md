@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Sample Node/ExpressJS application intended to demonstrate spawning companion incidents in remote ServiceNow applications from [Complyify|www.complyify.com] webhooks.
+Sample Node/ExpressJS application intended to demonstrate spawning companion incidents in remote ServiceNow applications from [Complyify](www.complyify.com) webhooks.
 
 The ServiceNow integration is meant to be used for demonstration only. Customization is highly recommended.
 
