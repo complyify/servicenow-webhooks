@@ -17,6 +17,21 @@ connections with a publicly-trusted certificate.
 
 3. [RECOMMENDED] A custom category 'complyify' used to retrieve relevant incidents
 
+## How To Run
+
+1. Replace placeholders in `src/index.js` for:
+
+- ServiceNow domain (ln 15)
+- ServiceNow username (ln 15)
+- ServiceNow password (ln 15)
+- Path to key (ln 76)
+- Path to cert (ln 77)
+- Port (passed as argument on ln 81; defaults to '8443')
+
+2. Run `npm i` to install Node dependencies
+
+3. Run `npm start` to start Node server listening for HTTPs connections on configured port
+
 ## Supported Webhook Actions
 
 1. TaskCreated - Complyify task opened against your organization
