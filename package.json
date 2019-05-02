@@ -20,7 +20,7 @@
     ]
   },
   "author": "Ian Walton",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.16.4",
     "https": "^1.0.0",
