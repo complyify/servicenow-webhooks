@@ -11,7 +11,7 @@ const ACTIONS = {
   TaskRemoved: 'TaskRemoved'
 }
 
-const start async (port = 8443) => {
+const start = async (port = 8443) => {
   const serviceNow = new ServiceNow('development.service-now.com', 'serviceNowUsername', 'serviceNowUserPassword')
 
   const app = express()
